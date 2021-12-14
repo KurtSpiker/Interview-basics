@@ -30,3 +30,20 @@
 // :67
 
 // :No additional constraints
+
+const pyramidLevel = (blockCount) => {
+  let blocksPerLevel = 1;
+  let pyramidHeight = 0;
+
+  if (blockCount > blocksPerLevel) {
+    pyramidHeight ++;
+    blocksPerLevel = (blocksPerLevel + 2) ^ 2
+
+    pyramidLevel(blockCount)
+  }
+  
+  console.log(pyramidHeight)
+  return pyramidHeight
+}
+
+pyramidLevel(35)

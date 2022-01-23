@@ -3,3 +3,23 @@
 
 // Output
 //Output the maximum possible amount of money Gina can have on the last day. Note that the answer may exceed 232.
+
+//Sample Input 1
+
+//6
+
+//100
+
+//200
+
+//100
+
+//150
+
+//125
+
+//300
+
+//Sample Output 1
+
+//650

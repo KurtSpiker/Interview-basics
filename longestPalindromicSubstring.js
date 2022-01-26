@@ -19,6 +19,14 @@
 longestPanlindrome = (string) => {
   let longest = "";
   for (const letter of string) {
+    let tempLongest = "";
     
+    
+    
+    
+    if (tempLongest.split("").reverse().join("") === tempLongest) {
+      longest = tempLongest;
+    
+    }
   }
 }

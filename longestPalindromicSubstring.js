@@ -26,6 +26,7 @@ longestPanlindrome = (string) => {
     
     if (tempLongest.split("").reverse().join("") === tempLongest) {
       longest = tempLongest;
+      return longest;
     
     }
   }

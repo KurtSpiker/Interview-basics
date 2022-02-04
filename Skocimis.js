@@ -10,7 +10,15 @@
 numberLine = (A, B, C) => {
   let turnCount = 0
   let gameStatus = true
+  let first = A
+  let middle = B
+  let last = C
   while (gameStatus) {
-  
+    let temp = 0
+    if (first + 1 > middle && first + 1 < last) {
+      
+      first = middle
+      
+    }
   }
 }

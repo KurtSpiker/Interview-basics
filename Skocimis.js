@@ -18,7 +18,11 @@ numberLine = (A, B, C) => {
     if (first + 1 > middle && first + 1 < last) {
       
       first = middle
+      turnCount ++
+    }
+    else {
       
     }
+      
   }
 }

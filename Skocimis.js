@@ -25,4 +25,5 @@ numberLine = (A, B, C) => {
     }
       
   }
+  return turnCount
 }

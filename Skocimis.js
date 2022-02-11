@@ -16,7 +16,7 @@ numberLine = (A, B, C) => {
   while (gameStatus) {
     let temp = 0
     if (first + 1 > middle && first + 1 < last) {
-      
+      // Should be able to reassign the first, middle, and last values with a temp value, so once each value is changed to "middle" of the two we still have reference to what it was
       first = middle
       turnCount ++
     }

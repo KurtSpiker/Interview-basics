@@ -23,3 +23,8 @@
 //Sample Output 1
 
 //650
+
+ totalAmount = () => {
+   money = 0;
+   return money
+ }

@@ -24,7 +24,7 @@
 
 //650
 
- totalAmount = () => {
+ totalAmount = (days, ) => {
    money = 0;
    return money
  }

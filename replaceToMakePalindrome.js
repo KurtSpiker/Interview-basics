@@ -1,3 +1,6 @@
+// With a sample input of "?ab??a", replace the "?" with letter to create a palindrome. If one cannot be created, return "NO"
+
+
 function replaceToMakePalindrome(someString) {
   let newS = [...someString]
   for (let x = 0; x < newS.length; x++) {

@@ -28,6 +28,9 @@ romanToInt = (romanString) => {
     D: 500,
     M: 1000
   }
+  for (let x = 0; x < romanString.length; x ++) {
+    if romanString[0]
+  }
   
   
 }

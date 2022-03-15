@@ -29,7 +29,17 @@ romanToInt = (romanString) => {
     M: 1000
   }
   for (let x = 0; x < romanString.length; x ++) {
-    if romanString[0]
+    if (romanString[x] === I) {
+      
+    }
+    if (romanString[x] === X) {
+      
+    } 
+    if (romanString[x] === C) {
+      
+    }
+    
+      
   }
   
   

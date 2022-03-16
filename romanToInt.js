@@ -28,14 +28,22 @@ romanToInt = (romanString) => {
     D: 500,
     M: 1000
   }
+  let count = 0
   for (let x = 0; x < romanString.length; x ++) {
-    if (romanString[x] === I) {
-      
+    if (romanString[x] === "I") {
+      if (romanString[x+1] === "V") {
+        count += 4
+        x += 2
+      }
+      if (romanString[x+1] === "X") {
+        count += 9
+        x += 2
+      }
     }
-    if (romanString[x] === X) {
+    if (romanString[x] === "X") {
       
     } 
-    if (romanString[x] === C) {
+    if (romanString[x] === "C") {
       
     }
     

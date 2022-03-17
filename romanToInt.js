@@ -41,9 +41,12 @@ romanToInt = (romanString) => {
       }
     }
     if (romanString[x] === "X") {
-      
+      if (romanString[x+1] === "L") {
+      }
+      if (romanString[x+1] === "C")
     } 
     if (romanString[x] === "C") {
+      if (romanString[x+1] === "V")
       
     }
     

@@ -42,16 +42,23 @@ romanToInt = (romanString) => {
     }
     if (romanString[x] === "X") {
       if (romanString[x+1] === "L") {
+        count += 40
+        x += 2
       }
-      if (romanString[x+1] === "C")
+      if (romanString[x+1] === "C"){
+        count += 90
+        x += 2
+      }
     } 
-    if (romanString[x] === "C") {
-      if (romanString[x+1] === "V")
-      
-    }
-    
-      
+    if (romanString[x] === "X") {
+      if (romanString[x+1] === "D") {
+        count += 400
+        x += 2
+      }
+      if (romanString[x+1] === "M") {
+        count += 900
+        x += 2
+      }
+    }   
   }
-  
-  
 }

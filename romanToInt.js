@@ -39,6 +39,7 @@ romanToInt = (romanString) => {
         count += 9
         x += 2
       }
+      count += 1
     }
     if (romanString[x] === "X") {
       if (romanString[x+1] === "L") {
@@ -49,8 +50,9 @@ romanToInt = (romanString) => {
         count += 90
         x += 2
       }
+      count += 10
     } 
-    if (romanString[x] === "X") {
+    if (romanString[x] === "C") {
       if (romanString[x+1] === "D") {
         count += 400
         x += 2
@@ -59,6 +61,20 @@ romanToInt = (romanString) => {
         count += 900
         x += 2
       }
-    }   
+      count += 100
+    }
+    if (romanString[x] === "V") {
+      count += 5
+    }
+    if (romanString[x] === "L") {
+      count += 50
+    }
+    if (romanString[x] === "D") {
+      count += 500
+    }
+    if (romanString[x] === "M") {
+      count += 1000
+    }
+    }
   }
 }

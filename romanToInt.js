@@ -19,15 +19,15 @@
 
 
 romanToInt = (romanString) => {
-  let conversions = {
-    I: 1,
-    V: 5,
-    X: 10,
-    L: 50,
-    C: 100,
-    D: 500,
-    M: 1000
-  }
+//   let conversions = {
+//     I: 1,
+//     V: 5,
+//     X: 10,
+//     L: 50,
+//     C: 100,
+//     D: 500,
+//     M: 1000
+//   }
   let count = 0
   for (let x = 0; x < romanString.length; x ++) {
     if (romanString[x] === "I") {
@@ -75,6 +75,6 @@ romanToInt = (romanString) => {
     if (romanString[x] === "M") {
       count += 1000
     }
-    }
   }
+return count
 }
